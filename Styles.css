@@ -1,6 +1,16 @@
-.wiki-intro {
+/*   ------- HEADER ----------
+-----------------------------*/
+
+
+body {
+    background-color: #ece9e9;
+    margin: 0px auto;
+}
+
+
+.wiki-pic {
+    margin: 120px 70px 30px;
     height: 310px;
-    margin: 30px;
     text-align: center;
     overflow: hidden;
 }
@@ -10,31 +20,55 @@
     
 }
 
+.header {
+    background-color: rgb(51, 49, 49);
+    box-shadow: 0px 0px 15px 0px #3f3d3d;
+    margin: 0px;
+    width: -webkit-fill-available;
+    height: 80px;
+    padding: 10px 20px;
+    position: fixed;
+    top: -20px;
+}
 .a-visited {
     color: white;
 }
 .container-list {
-    border: 1px solid;
-    border-color: #a0a0a0;
-    margin: 0px 20px 0px 680px;
-}
-
-.list {
-    text-decoration: none;
-    color: rgb(53, 48, 48);
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    box-shadow: #a0a0a0;
+    margin: 0px;
+    padding-top: calc(30px - 10px);
 }
 
 .list-style {
     margin: 0px;
     list-style: none;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: end;
-    padding: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.list {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
 
+.list-wiki {
+    cursor: pointer;
+    line-height: 45px;   
+    padding: 5px;
+    color: white;
+}
+
+/*   ------- MAIN ----------
+-----------------------------*/
+
+
+
+.wiki-header {
+    margin: 0px 45px;
+    padding: 5px 90px;
+    background-color: #ece9e9;
 }
 
 .quotes-author {
@@ -43,11 +77,6 @@
     text-align: justify;
 }
 
-.list-wiki {
-
-    cursor: pointer;
-    line-height: 45px;   
-}
 
 .books {
     width: 110px;
@@ -92,11 +121,6 @@
 }
 
 
-#wiki-header {
-    margin: 0px 45px;
-    padding: 5px 90px;
-    background-color: #ece9e9;
-}
 
 .p-biography {
     font-family: 'Poppins', sans-serif;
@@ -107,3 +131,5 @@
 .space {
     margin: 10px 90px;
 }
+/*   ------- FOOTER ----------
+-----------------------------*/
